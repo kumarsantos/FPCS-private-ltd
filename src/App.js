@@ -36,10 +36,7 @@ const App = () => {
     <div className="app">
 
 
-      {/* <Item  title="title" pic={img1} />
-      <Item  title="title" pic={img1} />
-      <Item  title="title" pic={img1} />
-      <Item  title="title" pic={img1} /> */}
+      
       {data.map((val,i)=>{
 
       return <Item key={i} title={val.title} pic={val.pic} />
